@@ -15,7 +15,11 @@ jobs:
 
     steps:
       - name: Checkout
+<<<<<<< HEAD
         uses: actions/checkout@v5
+=======
+        uses: actions/checkout@v6
+>>>>>>> be39df3 (chore: update GitHub Actions to latest major versions)
 
 #         : ---------------------------------------------------------------
 #         : START E2E Test Specific - steps
@@ -111,7 +115,11 @@ jobs:
 
     steps:
       - name: Checkout
+<<<<<<< HEAD
         uses: actions/checkout@v5
+=======
+        uses: actions/checkout@v6
+>>>>>>> be39df3 (chore: update GitHub Actions to latest major versions)
 
       #         : ---------------------------------------------------------------
       #         : START E2E Test Specific - steps
